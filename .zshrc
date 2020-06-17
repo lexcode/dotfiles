@@ -6,20 +6,28 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Activate antigen
-source $(brew --prefix)/share/antigen.zsh
+# source $(brew --prefix)/share/antigen.zsh
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # init brew
-eval $(/home/lexcode/.linuxbrew/bin/brew shellenv)
+case "$OSTYPE" in
+  darwin*)
+    # ...
+  ;;
+  linux*)
+    eval $(/home/lexcode/.linuxbrew/bin/brew shellenv)
+  ;;
+esac
+
 
 # NVM Stuff
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/lexcode/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ############## antigen ##############
 source $HOME/antigen.zsh
@@ -52,7 +60,7 @@ antigen apply
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -113,7 +121,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git git-extras node npx rsync yarn npm nvm nmap docker sublime tmux themes vscode brew cp dotenv gatsby drush dotfiles branch-manager zsh-autosuggestions zsh-syntax-highlighting zsh-completions history-substring-search zsh-history-substring-search auto-notify caniuse)
+plugins=(git node npx rsync yarn npm nvm nmap sublime tmux themes vscode brew cp dotenv drush dotfiles branch-manager zsh-autosuggestions zsh-syntax-highlighting zsh-completions history-substring-search zsh-history-substring-search auto-notify caniuse)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -142,7 +150,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source "$HOME/aliases.zsh"export PATH="/usr/local/sbin:$PATH"
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+source "$HOME/aliases.zsh"
+
+export PATH="/usr/local/sbin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
