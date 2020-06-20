@@ -6,7 +6,7 @@ alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-directories-first"
 alias c="clear"
 alias update="sudo apt-get update && sudo apt-get upgrade"
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' 
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
