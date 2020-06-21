@@ -6,12 +6,14 @@ sudo apt update
 sudo apt upgrade
 
 
-sudo apt install -y zsh git snapd arc-theme build-essential curl ffmpeg htop nfs-common ranger  scrot shellcheck tree unrar \
+sudo apt install -y zsh git snapd arc-theme build-essential curl ffmpeg htop nfs-common ranger  scrot shellcheck tree \
+    yarn \
     xz-utils \
     tmux \
-    font-manager
-
-
+    font-manager \
+    gnome-tweaks \
+    plank \
+    libgtk-3-dev automake autoconf gtk2-engines-pixbuf \
 
     # OpenVPN
     sudo apt install -y \

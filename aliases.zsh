@@ -7,6 +7,7 @@ alias ll="/usr/local/opt/coreutils/libexec/gnubin/ls -AhlFo --color --group-dire
 alias c="clear"
 alias update="sudo apt-get update && sudo apt-get upgrade"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' 
+alias install='sudo dpkg -i'
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
@@ -29,3 +30,6 @@ alias push="git push"
 # alias stash="git stash -u"
 # alias unstage="git restore --staged ."
 # alias wip="commit wip"
+
+
+alias gogd="cd /media/lexcode/C604E14604E13A57/Users/lexcode/code/Dept/acsf-gd-whitelabel"
