@@ -9,6 +9,7 @@ sudo apt upgrade
 sudo apt install -y zsh git snapd arc-theme build-essential curl ffmpeg htop nfs-common ranger  scrot shellcheck tree unrar \
     xz-utils \
     tmux \
+    font-manager
 
 
 
