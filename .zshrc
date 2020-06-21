@@ -6,21 +6,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Activate antigen
-source $(brew --prefix)/share/antigen.zsh
+source $HOME/antigen.zsh
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# init brew
-case "$OSTYPE" in
-  darwin*)
-    # ...
-  ;;
-  linux*)
-    eval $(/home/lexcode/.linuxbrew/bin/brew shellenv)
-  ;;
-esac
-
 
 # NVM Stuff
 export NVM_DIR="$HOME/.nvm"
@@ -47,6 +36,7 @@ antigen bundle <<EOBUNDLES
 
     # Extra zsh completions
     zsh-users/zsh-completions
+
 EOBUNDLES
 
 # Load the theme
@@ -121,7 +111,7 @@ antigen apply
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npx rsync yarn npm nvm nmap sublime tmux themes vscode brew cp dotenv drush dotfiles branch-manager zsh-autosuggestions zsh-syntax-highlighting zsh-completions history-substring-search zsh-history-substring-search auto-notify caniuse)
+plugins=(git node rsync yarn npm nvm nmap sublime tmux themes vscode brew dotenv drush dotfiles branch-manager zsh-autosuggestions zsh-syntax-highlighting zsh-completions history-substring-search zsh-history-substring-search auto-notify compleat)
 
 source $ZSH/oh-my-zsh.sh
 

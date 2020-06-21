@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-sudo snap install vscode --classic
+sudo snap install --classic vscode
+
+sudo snap install spotify docker
