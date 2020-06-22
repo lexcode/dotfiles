@@ -4,7 +4,7 @@ brew 'nvm'
 # Binaries
 brew 'git'
 brew 'tree' # List directories in a tree structure
-
+brew 'go'
 # Drupal Env
 #brew tap drud/ddev
 #brew 'ddev'
