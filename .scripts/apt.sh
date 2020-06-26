@@ -13,6 +13,8 @@ sudo apt install -y zsh git snapd arc-theme build-essential curl ffmpeg htop nfs
     font-manager \
     gnome-tweaks \
     plank \
+    flameshot \
+    virtualbox \
     libgtk-3-dev automake autoconf gtk2-engines-pixbuf \
 
     # OpenVPN
