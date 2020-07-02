@@ -40,3 +40,6 @@ brew bundle
 
 # Update homebrew recipes
 brew update
+
+# Upgrade 
+brew upgrade

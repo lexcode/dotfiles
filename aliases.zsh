@@ -32,5 +32,6 @@ alias push="git push"
 # alias wip="commit wip"
 
 
-alias gogd="cd /media/lexcode/C604E14604E13A57/Users/lexcode/code/Dept/acsf-gd-whitelabel"
+alias gogd="cd ~/code/Dept/acsf-gd-whitelabel"
 alias gocode="cd /media/lexcode/EA4094054093D723/Users/lexco/code"
+alias deptvpn="sudo openvpn --config ~/code/Dept/alex.oliveira__ssl_vpn_config.ovpn"
