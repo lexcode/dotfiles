@@ -1,5 +1,4 @@
 brew 'nvim'
-brew 'nvm'
 
 # Binaries
 brew 'git'

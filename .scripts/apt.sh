@@ -7,7 +7,8 @@ sudo apt upgrade
 
 sudo add-apt-repository multiverse
 
-sudo apt install -y zsh git snapd arc-theme build-essential curl ffmpeg htop nfs-common ranger scrot shellcheck tree \
+sudo apt install -y zsh git snapd arc-theme build-essential curl file ffmpeg htop nfs-common ranger scrot shellcheck tree \
+    ruby \
     yarn \
     xz-utils \
     tmux \
