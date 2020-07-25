@@ -6,10 +6,10 @@ sudo -v
 # Install the essential on eg: linux/ubuntu
 if [ "$(uname)" == "Linux" ]; then
   echo "Installing essential tools..."
-  sudo apt-get install build-essential curl file git
 
   echo "Installing scripts"
   bash ./.scripts/apt.sh
+  bash ./.scripts/nvm.sh
   bash ./.scripts/snap.sh
 fi
 
@@ -21,11 +21,13 @@ if test ! $(which brew); then
 
 
   # Configure Homebrew in your /home/lexcode/.profile by running
-  echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> $HOME/.profile
+  # echo 'eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)' >> $HOME/.profile
+  echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
   
   # Add Homebrew to your PATH
   eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
+  # export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
   # We recommend that you install GCC by running:
   #brew install gcc
 
