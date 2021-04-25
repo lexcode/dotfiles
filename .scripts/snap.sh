@@ -8,4 +8,4 @@ sudo snap install sublime-text --classic
 
 sudo snap install slack --classic
 
-sudo snap install spotify gimp 1password-linux plexmediaserver ngrok 
+sudo snap install figma-linux inkscape spotify gimp 1password-linux plexmediaserver ngrok standard-notes

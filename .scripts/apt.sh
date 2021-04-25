@@ -8,6 +8,7 @@ sudo apt upgrade
 sudo add-apt-repository multiverse
 
 sudo apt install -y zsh git snapd arc-theme build-essential curl file ffmpeg htop nfs-common ranger scrot shellcheck tree \
+    stacer \
     ruby \
     yarn \
     xz-utils \
@@ -22,6 +23,8 @@ sudo apt install -y zsh git snapd arc-theme build-essential curl file ffmpeg hto
     virtualbox-guest-x11 \
     libgtk-3-dev automake autoconf gtk2-engines-pixbuf \
     python2 \
+    playonlinux \
+    darktable \
     # OpenVPN
     sudo apt install -y \
         openvpn \

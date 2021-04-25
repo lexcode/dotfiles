@@ -7,6 +7,7 @@ brew 'go'
 brew 'isacikgoz/taps/tldr'
 brew 'http-server'
 brew 'neofetch'
+brew 'git-recent'
 # Drupal Env
 #brew tap drud/ddev
 #brew 'ddev'

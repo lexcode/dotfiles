@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+alias hse-docker-build='docker build --tag hse-web --build-arg DJANGO_ENV=dev /home/lexcode/code/Dept/wagtail-hse-frontend/hseweb/'
+alias hse-docker-run='docker run -p 8000:8000 -v /path/to/hse-web/hseweb/:/code --name hse-web hse-web'
+alias hse-docker-start='docker start -a hse-web'
+
 # Default Editor
 export EDITOR='nvim'
 
@@ -19,9 +23,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # . "$(brew --prefix nvm)/nvm.sh"
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+  
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -148,7 +152,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias note='./standard-notes-3.5.18-linux-x86_64.AppImage'
 source "$HOME/aliases.zsh"
 
 export PATH="/usr/local/sbin:$PATH"
