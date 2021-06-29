@@ -7,3 +7,4 @@ brew install --cask figma
 brew install --cask spotify
 brew install htop
 brew install tmux
+brew install yarn
