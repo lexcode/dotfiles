@@ -14,6 +14,8 @@ brew install --cask whatsapp
 brew install --cask brave-browser
 brew install --cask discord
 brew install --cask docker
+brew install --cask authy
+brew install --cask the-unarchiver
 
 brew install neovim
 brew install htop
