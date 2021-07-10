@@ -1,39 +1,29 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
-# python python-pip
+# https://lutris.net/downloads/
 
 sudo apt update
 sudo apt upgrade
 
-sudo add-apt-repository multiverse
 
-sudo apt install -y zsh git snapd arc-theme build-essential curl file ffmpeg htop nfs-common ranger scrot shellcheck tree \
-    stacer \
-    ruby \
-    yarn \
-    xz-utils \
+sudo apt install -y \
+    git \
+    snap \
+    arc-theme \
+    build-essential \
+    curl \
+    ffmpeg \
+    htop \
+    nfs-common \
+    python \
+    python-pip \
+    ranger \
+    scrot \
+    shellcheck \  
     tmux \
-    font-manager \
-    gnome-tweaks \
-    plank \
-    net-tools \
-    flameshot \
-    virtualbox \
-    virtualbox-guest-dkms \
-    virtualbox-guest-x11 \
-    libgtk-3-dev automake autoconf gtk2-engines-pixbuf \
-    python2 \
-    playonlinux \
-    darktable \
-    # OpenVPN
-    sudo apt install -y \
-        openvpn \
-        network-manager-openvpn \
-        network-manager-openvpn-gnome
+    tree \
+    unrar \
+    xz-utils \
+    lutris
 
-# Set zsh as defautl
-chsh -s $(which zsh)
-
-# Cleanup
-sudo apt autoremove
-sudo apt autoclean
+sudo apt install
