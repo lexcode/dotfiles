@@ -16,6 +16,7 @@ brew install --cask discord
 brew install --cask docker
 brew install --cask authy
 brew install --cask the-unarchiver
+brew install --cask ngrok
 
 brew install neovim
 brew install htop
