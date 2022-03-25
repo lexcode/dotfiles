@@ -19,6 +19,7 @@ brew install --cask the-unarchiver
 brew install --cask ngrok
 brew install --cask sublime-text
 brew install --cask notion
+brew install --cask raycast
 
 brew install neovim
 brew install htop
