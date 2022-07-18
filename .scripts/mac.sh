@@ -26,4 +26,5 @@ brew install htop
 brew install tmux
 brew install yarn
 brew install pnpm
+brew install insomnia
 
