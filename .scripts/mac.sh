@@ -21,6 +21,7 @@ brew install --cask sublime-text
 brew install --cask notion
 brew install --cask raycast
 brew install --cask fig
+brew install --cask warp
 
 brew install neovim
 brew install htop
