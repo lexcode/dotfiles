@@ -22,6 +22,7 @@ brew install --cask notion
 brew install --cask raycast
 brew install --cask fig
 brew install --cask warp
+brew install --cask dbeaver-community
 
 brew install neovim
 brew install htop
