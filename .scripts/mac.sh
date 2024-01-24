@@ -31,4 +31,5 @@ brew install yarn
 brew install pnpm
 brew install insomnia
 brew install postgresql@15
+brew install lazygit
 
