@@ -25,6 +25,7 @@ sudo apt install -y \
     unrar \
     xz-utils \
     lutris \
-    fzf
+    fzf \
+    xh
 
 sudo apt install
