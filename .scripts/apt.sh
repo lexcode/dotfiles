@@ -24,6 +24,7 @@ sudo apt install -y \
     tree \
     unrar \
     xz-utils \
-    lutris
+    lutris \
+    fzf
 
 sudo apt install
