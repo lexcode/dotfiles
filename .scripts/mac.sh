@@ -33,4 +33,5 @@ brew install insomnia
 brew install postgresql@15
 brew install lazygit
 brew install zoxide
+brew install ripgrep
 
