@@ -34,5 +34,6 @@ brew install postgresql@15
 brew install lazygit
 brew install zoxide
 brew install ripgrep
-brew isntall eza
+brew install eza
+brew install bat
 
