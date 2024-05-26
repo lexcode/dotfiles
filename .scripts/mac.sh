@@ -1,4 +1,4 @@
- Mac Brew cash installs
+Mac Brew cash installs
 
 brew install --cask sequel-pro
 brew install --cask dash
@@ -37,3 +37,4 @@ brew install ripgrep
 brew install eza
 brew install bat
 brew install mc
+brew install entr
