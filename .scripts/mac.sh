@@ -36,4 +36,4 @@ brew install zoxide
 brew install ripgrep
 brew install eza
 brew install bat
-brew install zoxide
+brew install mc
