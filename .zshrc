@@ -4,15 +4,6 @@ export EDITOR='nvim'
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# NVM Stuff
-# export NVM_DIR="$HOME/.nvm"
-# . "$(brew --prefix nvm)/nvm.sh"
-
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-  
-
 # -- Use fd instead of fzf --
 
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
