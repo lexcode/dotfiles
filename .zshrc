@@ -115,6 +115,11 @@ _fzf_comprun() {
   esac
 }
 
+# Shell integrations
+eval "$(fzf --zsh)"
+# eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+
 # Example aliases
 source "$HOME/aliases.zsh"
 
