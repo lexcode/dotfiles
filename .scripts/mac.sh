@@ -31,10 +31,4 @@ brew install yarn
 brew install pnpm
 brew install insomnia
 brew install postgresql@15
-brew install lazygit
-brew install zoxide
-brew install ripgrep
-brew install eza
-brew install bat
-brew install mc
-brew install entr
+brew install entr yazi mc bat eza ripgrep zoxide lazygit
