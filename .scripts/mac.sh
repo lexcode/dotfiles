@@ -24,6 +24,9 @@ brew install --cask fig
 brew install --cask warp
 brew install --cask dbeaver-community
 
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+
 brew install neovim
 brew install htop
 brew install tmux
