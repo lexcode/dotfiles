@@ -26,4 +26,4 @@ paru -S \
 	eza \
 	bat \
 	mc \
-	entr yazi
+	entr yazi thefuck tldr
