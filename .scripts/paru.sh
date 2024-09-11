@@ -26,4 +26,5 @@ paru -S \
 	eza \
 	bat \
 	mc \
-	entr yazi thefuck tldr
+	entr yazi thefuck tldr \
+ 	obsidian
