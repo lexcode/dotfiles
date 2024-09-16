@@ -6,7 +6,7 @@ brew install --cask dcommander
 brew install --cask figma
 brew install --cask spotify
 brew install --cask firefox
-brew install --cask google-chrome
+brew install --cask google-chrome zen-browser
 brew install --cask alfred
 brew install --cask spectacle
 brew install --cask 1password
