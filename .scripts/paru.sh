@@ -28,4 +28,5 @@ paru -S \
 	mc \
 	entr yazi thefuck tldr \
  	obsidian
-  	\ zen-browser-bin
+  	\ zen-browser-bin \
+   	atuin \
