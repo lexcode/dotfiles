@@ -120,6 +120,9 @@ eval "$(fzf --zsh)"
 # eval "$(zoxide init zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
+# Shell history sync
+eval "$(atuin init zsh)"
+
 # Example aliases
 source "$HOME/aliases.zsh"
 
