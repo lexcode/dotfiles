@@ -35,3 +35,4 @@ brew install pnpm
 brew install insomnia
 brew install postgresql@15
 brew install entr yazi mc bat eza ripgrep zoxide lazygit
+brew install atuin
