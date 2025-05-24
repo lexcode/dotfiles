@@ -24,6 +24,7 @@ brew install --cask fig
 brew install --cask warp
 brew install --cask dbeaver-community
 brew install --cask cursor
+brew install --cask karabiner-elements # Key remapper for macos.
 
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
