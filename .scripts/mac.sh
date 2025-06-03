@@ -24,6 +24,7 @@ brew install --cask fig
 brew install --cask warp
 brew install --cask dbeaver-community
 brew install --cask cursor
+brew install --cask bambu-studio
 
 
 brew install koekeishiya/formulae/yabai
