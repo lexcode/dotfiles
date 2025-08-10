@@ -8,8 +8,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias install='sudo dpkg -i'
 
 # JS
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
-alias yfresh="rm -rf node_modules/ yarn-lock.json && yarn"
+alias nfresh="rm -rf node_modules/ && npm install"
+alias yfresh="rm -rf node_modules/ && yarn"
 
 # Git
 # alias gst="git status"
