@@ -1,3 +1,8 @@
 Dotfiles
 ========
-🏠 Personal dotfiles for \*NIX (Mac OS X and Linux) systems.
+🏠 Personal dotfiles for (Mac OS X and Linux) systems.
+
+### Install with stow:
+```bash
+stow .
+```

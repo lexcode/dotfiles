@@ -26,17 +26,13 @@ brew install --cask dbeaver-community
 brew install --cask cursor
 brew install --cask bambu-studio
 
-
-brew install koekeishiya/formulae/yabai
-brew install koekeishiya/formulae/skhd
-
 brew install neovim
-brew install htop
+brew install btop
 brew install tmux
 brew install yarn
 brew install pnpm
 brew install insomnia
-brew install postgresql@15
 brew install entr yazi mc bat eza ripgrep zoxide lazygit
 brew install atuin
 brew install 1password-cli
+brew install stow
