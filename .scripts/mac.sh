@@ -35,4 +35,4 @@ brew install insomnia
 brew install entr yazi mc bat eza ripgrep zoxide lazygit
 brew install atuin
 brew install 1password-cli
-brew install stow
+brew install stow imagemagick
